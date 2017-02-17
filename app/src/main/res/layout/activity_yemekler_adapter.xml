@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:background="@color/darkgrey"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="5dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Mercibek Çorbası"
+        android:layout_gravity="center"
+        android:textColor="@color/beyaz"
+        android:textSize="20sp"
+        android:id="@+id/yemekİsmi" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        tools:src="@drawable/makarna"
+        android:scaleType="centerCrop"
+        android:id="@+id/yemekFoto"
+        android:layout_gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_edit_black_24dp"
+            android:id="@+id/yazarVektor"
+            android:paddingRight="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Mustafa Kocadag"
+            android:textColor="@color/beyaz"
+            android:textSize="15sp"
+            android:id="@+id/yazar"
+           />
+    </LinearLayout>
+
+</LinearLayout>

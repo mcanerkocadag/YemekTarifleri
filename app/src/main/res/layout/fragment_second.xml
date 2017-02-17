@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mcaner.yemektarifleri.fragment.SecondFragment"
+    android:background="@color/darkgrey">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:id="@+id/randImage"/>
+
+                <TextView
+                android:id="@+id/randYemekIsmi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Second FRAGMENT"
+                android:layout_below="@+id/randImage"
+                android:gravity="center"
+                android:textSize="25sp"
+                    android:textColor="@color/beyaz"
+                android:layout_marginTop="10dp"
+                />
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+</FrameLayout>
